@@ -42,7 +42,7 @@ function rot13(encodedStr) {
         }
         else{
             //decodedArr.push(encodedStr[i])
-			decodedArr+=lookup[encodedStr[i]]
+			decodedArr+=encodedStr[i];
         }
     }
     return decodedArr;
